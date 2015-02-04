@@ -20,17 +20,20 @@ PODS:
   - AFNetworking/UIKit (2.5.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - JSONKit (1.4)
+  - GCJSONKit (1.5.0)
+  - MJRefresh (0.0.1)
   - Reachability (3.0.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
-  - JSONKit (~> 1.4)
+  - GCJSONKit (~> 1.5.0)
+  - MJRefresh (~> 0.0.1)
   - Reachability (~> 3.0.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
-  JSONKit: 2111ac2b11f7ea0d07bb1d9d09e650918336a134
+  GCJSONKit: 2e66dba7183b1557f01bcbb3021746073c6fa523
+  MJRefresh: 02638d90855109026754562b7507e5c5eabfcc65
   Reachability: d369b8d7d33730a4bb71d0f601e287da9867c9dd
 
 COCOAPODS: 0.36.0.beta.2
