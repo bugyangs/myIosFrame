@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0" 
+pod 'JSONKit',       '~> 1.4'
+pod 'Reachability',  '~> 3.0.0'
+#pod 'ReactiveCocoa', '~> 2.0.0'
+#pod 'ASIHTTPRequest'
+#pod 'RegexKitLite'
+#pod 'CURestKit', '~>1.0.1' 
+##pod 'SDWebImage','~>3.4'
+##pod 'MBProgressHUD', '~> 0.7'
+##pod 'UALogger', '~> 0.2.3'
