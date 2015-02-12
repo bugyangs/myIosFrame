@@ -1,22 +1,22 @@
 //
-//  TestViewController.m
+//  BDNewsController.m
 //  cocoapodsDemo
 //
-//  Created by zyf on 15/2/4.
+//  Created by zyf on 15/2/9.
 //  Copyright (c) 2015年 baidu. All rights reserved.
 //
 
-#import "TestViewController.h"
+#import "BDNewsController.h"
 
-@interface TestViewController ()
+@interface BDNewsController ()
 
 @end
 
-@implementation TestViewController
+@implementation BDNewsController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

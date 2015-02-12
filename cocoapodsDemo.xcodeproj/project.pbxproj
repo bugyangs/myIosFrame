@@ -11,24 +11,19 @@
 		E1075B511A8070B9002ADDF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1075B501A8070B9002ADDF7 /* main.m */; };
 		E1075B541A8070B9002ADDF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1075B531A8070B9002ADDF7 /* AppDelegate.m */; };
 		E1075B571A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1075B551A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld */; };
-		E1075B5A1A8070B9002ADDF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1075B591A8070B9002ADDF7 /* ViewController.m */; };
 		E1075B5D1A8070B9002ADDF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1075B5B1A8070B9002ADDF7 /* Main.storyboard */; };
 		E1075B5F1A8070B9002ADDF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1075B5E1A8070B9002ADDF7 /* Images.xcassets */; };
 		E1075B621A8070B9002ADDF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1075B601A8070B9002ADDF7 /* LaunchScreen.xib */; };
-		E1075B6E1A8070B9002ADDF7 /* cocoapodsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1075B6D1A8070B9002ADDF7 /* cocoapodsDemoTests.m */; };
-		E1A063EB1A81E51800195562 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A063E91A81E51800195562 /* TestViewController.m */; };
-		E1A063EC1A81E51800195562 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A063EA1A81E51800195562 /* TestViewController.xib */; };
+		E1499A311A88A8CA00AAED0E /* BDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A301A88A8CA00AAED0E /* BDBaseViewController.m */; };
+		E1499A3B1A88AC2900AAED0E /* BDWorkbenchController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A3A1A88AC2900AAED0E /* BDWorkbenchController.m */; };
+		E1499A3E1A88AEFE00AAED0E /* BDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A3D1A88AEFE00AAED0E /* BDRootViewController.m */; };
+		E1499A451A88B0CF00AAED0E /* BDNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A441A88B0CF00AAED0E /* BDNewsController.m */; };
+		E1499A4B1A88B11800AAED0E /* BDAblumController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A4A1A88B11800AAED0E /* BDAblumController.m */; };
+		E1499A4E1A88B12900AAED0E /* BDFilmController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A4D1A88B12900AAED0E /* BDFilmController.m */; };
+		E1499A511A88B13A00AAED0E /* BDMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A501A88B13A00AAED0E /* BDMineController.m */; };
+		E153174E1A84A77E009CE834 /* SingleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E153174D1A84A77E009CE834 /* SingleManager.m */; };
+		E177B2661A884CF600EBC874 /* TestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E177B2651A884CF600EBC874 /* TestManager.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E1075B681A8070B9002ADDF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E1075B431A8070B9002ADDF7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1075B4A1A8070B9002ADDF7;
-			remoteInfo = cocoapodsDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		10743104849F9CC6EA02B1E0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -40,17 +35,27 @@
 		E1075B521A8070B9002ADDF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E1075B531A8070B9002ADDF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E1075B561A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cocoapodsDemo.xcdatamodel; sourceTree = "<group>"; };
-		E1075B581A8070B9002ADDF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E1075B591A8070B9002ADDF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E1075B5C1A8070B9002ADDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1075B5E1A8070B9002ADDF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E1075B611A8070B9002ADDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E1075B671A8070B9002ADDF7 /* cocoapodsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocoapodsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1075B6C1A8070B9002ADDF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1075B6D1A8070B9002ADDF7 /* cocoapodsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapodsDemoTests.m; sourceTree = "<group>"; };
-		E1A063E81A81E51800195562 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		E1A063E91A81E51800195562 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		E1A063EA1A81E51800195562 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		E1499A2F1A88A8CA00AAED0E /* BDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBaseViewController.h; sourceTree = "<group>"; };
+		E1499A301A88A8CA00AAED0E /* BDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBaseViewController.m; sourceTree = "<group>"; };
+		E1499A391A88AC2900AAED0E /* BDWorkbenchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDWorkbenchController.h; sourceTree = "<group>"; };
+		E1499A3A1A88AC2900AAED0E /* BDWorkbenchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDWorkbenchController.m; sourceTree = "<group>"; };
+		E1499A3C1A88AEFE00AAED0E /* BDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRootViewController.h; sourceTree = "<group>"; };
+		E1499A3D1A88AEFE00AAED0E /* BDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRootViewController.m; sourceTree = "<group>"; };
+		E1499A431A88B0CF00AAED0E /* BDNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDNewsController.h; sourceTree = "<group>"; };
+		E1499A441A88B0CF00AAED0E /* BDNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDNewsController.m; sourceTree = "<group>"; };
+		E1499A491A88B11800AAED0E /* BDAblumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDAblumController.h; sourceTree = "<group>"; };
+		E1499A4A1A88B11800AAED0E /* BDAblumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDAblumController.m; sourceTree = "<group>"; };
+		E1499A4C1A88B12900AAED0E /* BDFilmController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDFilmController.h; sourceTree = "<group>"; };
+		E1499A4D1A88B12900AAED0E /* BDFilmController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDFilmController.m; sourceTree = "<group>"; };
+		E1499A4F1A88B13A00AAED0E /* BDMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDMineController.h; sourceTree = "<group>"; };
+		E1499A501A88B13A00AAED0E /* BDMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDMineController.m; sourceTree = "<group>"; };
+		E153174C1A84A77E009CE834 /* SingleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleManager.h; sourceTree = "<group>"; };
+		E153174D1A84A77E009CE834 /* SingleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleManager.m; sourceTree = "<group>"; };
+		E177B2641A884CF600EBC874 /* TestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestManager.h; sourceTree = "<group>"; };
+		E177B2651A884CF600EBC874 /* TestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +64,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A729B4B01E5F09D37A0C9BA7 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1075B641A8070B9002ADDF7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				E1075B4D1A8070B9002ADDF7 /* cocoapodsDemo */,
-				E1075B6A1A8070B9002ADDF7 /* cocoapodsDemoTests */,
 				E1075B4C1A8070B9002ADDF7 /* Products */,
 				1B946EF446177225F553A3A3 /* Pods */,
 				3838C47A60393EEA44EB08FF /* Frameworks */,
@@ -104,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				E1075B4B1A8070B9002ADDF7 /* cocoapodsDemo.app */,
-				E1075B671A8070B9002ADDF7 /* cocoapodsDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,10 +110,12 @@
 			children = (
 				E1075B521A8070B9002ADDF7 /* AppDelegate.h */,
 				E1075B531A8070B9002ADDF7 /* AppDelegate.m */,
-				E1075B581A8070B9002ADDF7 /* ViewController.h */,
-				E1075B591A8070B9002ADDF7 /* ViewController.m */,
+				E1499A3C1A88AEFE00AAED0E /* BDRootViewController.h */,
+				E1499A3D1A88AEFE00AAED0E /* BDRootViewController.m */,
 				E1075B5B1A8070B9002ADDF7 /* Main.storyboard */,
 				E1075B5E1A8070B9002ADDF7 /* Images.xcassets */,
+				E153174B1A84A761009CE834 /* Util */,
+				E1499A2E1A88A8B700AAED0E /* Common */,
 				E1A063E61A81E4ED00195562 /* ViewController */,
 				E1075B601A8070B9002ADDF7 /* LaunchScreen.xib */,
 				E1075B551A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld */,
@@ -135,39 +133,73 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E1075B6A1A8070B9002ADDF7 /* cocoapodsDemoTests */ = {
+		E1499A2E1A88A8B700AAED0E /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				E1075B6D1A8070B9002ADDF7 /* cocoapodsDemoTests.m */,
-				E1075B6B1A8070B9002ADDF7 /* Supporting Files */,
+				E1499A2F1A88A8CA00AAED0E /* BDBaseViewController.h */,
+				E1499A301A88A8CA00AAED0E /* BDBaseViewController.m */,
 			);
-			path = cocoapodsDemoTests;
+			path = Common;
 			sourceTree = "<group>";
 		};
-		E1075B6B1A8070B9002ADDF7 /* Supporting Files */ = {
+		E1499A421A88B0BB00AAED0E /* News */ = {
 			isa = PBXGroup;
 			children = (
-				E1075B6C1A8070B9002ADDF7 /* Info.plist */,
+				E1499A431A88B0CF00AAED0E /* BDNewsController.h */,
+				E1499A441A88B0CF00AAED0E /* BDNewsController.m */,
 			);
-			name = "Supporting Files";
+			path = News;
+			sourceTree = "<group>";
+		};
+		E1499A461A88B0FB00AAED0E /* Ablum */ = {
+			isa = PBXGroup;
+			children = (
+				E1499A491A88B11800AAED0E /* BDAblumController.h */,
+				E1499A4A1A88B11800AAED0E /* BDAblumController.m */,
+			);
+			path = Ablum;
+			sourceTree = "<group>";
+		};
+		E1499A471A88B0FB00AAED0E /* Film */ = {
+			isa = PBXGroup;
+			children = (
+				E1499A4C1A88B12900AAED0E /* BDFilmController.h */,
+				E1499A4D1A88B12900AAED0E /* BDFilmController.m */,
+			);
+			path = Film;
+			sourceTree = "<group>";
+		};
+		E1499A481A88B0FB00AAED0E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				E1499A4F1A88B13A00AAED0E /* BDMineController.h */,
+				E1499A501A88B13A00AAED0E /* BDMineController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		E153174B1A84A761009CE834 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E153174C1A84A77E009CE834 /* SingleManager.h */,
+				E153174D1A84A77E009CE834 /* SingleManager.m */,
+				E177B2641A884CF600EBC874 /* TestManager.h */,
+				E177B2651A884CF600EBC874 /* TestManager.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		E1A063E61A81E4ED00195562 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E1A063E71A81E50300195562 /* List */,
+				E1499A391A88AC2900AAED0E /* BDWorkbenchController.h */,
+				E1499A3A1A88AC2900AAED0E /* BDWorkbenchController.m */,
+				E1499A421A88B0BB00AAED0E /* News */,
+				E1499A461A88B0FB00AAED0E /* Ablum */,
+				E1499A471A88B0FB00AAED0E /* Film */,
+				E1499A481A88B0FB00AAED0E /* Mine */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		E1A063E71A81E50300195562 /* List */ = {
-			isa = PBXGroup;
-			children = (
-				E1A063E81A81E51800195562 /* TestViewController.h */,
-				E1A063E91A81E51800195562 /* TestViewController.m */,
-				E1A063EA1A81E51800195562 /* TestViewController.xib */,
-			);
-			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,24 +224,6 @@
 			productReference = E1075B4B1A8070B9002ADDF7 /* cocoapodsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E1075B661A8070B9002ADDF7 /* cocoapodsDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E1075B741A8070B9002ADDF7 /* Build configuration list for PBXNativeTarget "cocoapodsDemoTests" */;
-			buildPhases = (
-				E1075B631A8070B9002ADDF7 /* Sources */,
-				E1075B641A8070B9002ADDF7 /* Frameworks */,
-				E1075B651A8070B9002ADDF7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1075B691A8070B9002ADDF7 /* PBXTargetDependency */,
-			);
-			name = cocoapodsDemoTests;
-			productName = cocoapodsDemoTests;
-			productReference = E1075B671A8070B9002ADDF7 /* cocoapodsDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -221,10 +235,6 @@
 				TargetAttributes = {
 					E1075B4A1A8070B9002ADDF7 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					E1075B661A8070B9002ADDF7 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = E1075B4A1A8070B9002ADDF7;
 					};
 				};
 			};
@@ -242,7 +252,6 @@
 			projectRoot = "";
 			targets = (
 				E1075B4A1A8070B9002ADDF7 /* cocoapodsDemo */,
-				E1075B661A8070B9002ADDF7 /* cocoapodsDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,15 +263,7 @@
 			files = (
 				E1075B5D1A8070B9002ADDF7 /* Main.storyboard in Resources */,
 				E1075B621A8070B9002ADDF7 /* LaunchScreen.xib in Resources */,
-				E1A063EC1A81E51800195562 /* TestViewController.xib in Resources */,
 				E1075B5F1A8070B9002ADDF7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1075B651A8070B9002ADDF7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,31 +307,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1499A451A88B0CF00AAED0E /* BDNewsController.m in Sources */,
 				E1075B541A8070B9002ADDF7 /* AppDelegate.m in Sources */,
+				E1499A311A88A8CA00AAED0E /* BDBaseViewController.m in Sources */,
+				E1499A4B1A88B11800AAED0E /* BDAblumController.m in Sources */,
+				E1499A3E1A88AEFE00AAED0E /* BDRootViewController.m in Sources */,
+				E177B2661A884CF600EBC874 /* TestManager.m in Sources */,
 				E1075B511A8070B9002ADDF7 /* main.m in Sources */,
-				E1075B5A1A8070B9002ADDF7 /* ViewController.m in Sources */,
+				E1499A4E1A88B12900AAED0E /* BDFilmController.m in Sources */,
+				E1499A511A88B13A00AAED0E /* BDMineController.m in Sources */,
 				E1075B571A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld in Sources */,
-				E1A063EB1A81E51800195562 /* TestViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1075B631A8070B9002ADDF7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1075B6E1A8070B9002ADDF7 /* cocoapodsDemoTests.m in Sources */,
+				E153174E1A84A77E009CE834 /* SingleManager.m in Sources */,
+				E1499A3B1A88AC2900AAED0E /* BDWorkbenchController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E1075B691A8070B9002ADDF7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E1075B4A1A8070B9002ADDF7 /* cocoapodsDemo */;
-			targetProxy = E1075B681A8070B9002ADDF7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E1075B5B1A8070B9002ADDF7 /* Main.storyboard */ = {
@@ -450,40 +442,6 @@
 			};
 			name = Release;
 		};
-		E1075B751A8070B9002ADDF7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = cocoapodsDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cocoapodsDemo.app/cocoapodsDemo";
-			};
-			name = Debug;
-		};
-		E1075B761A8070B9002ADDF7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = cocoapodsDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cocoapodsDemo.app/cocoapodsDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -501,15 +459,6 @@
 			buildConfigurations = (
 				E1075B721A8070B9002ADDF7 /* Debug */,
 				E1075B731A8070B9002ADDF7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E1075B741A8070B9002ADDF7 /* Build configuration list for PBXNativeTarget "cocoapodsDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E1075B751A8070B9002ADDF7 /* Debug */,
-				E1075B761A8070B9002ADDF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
