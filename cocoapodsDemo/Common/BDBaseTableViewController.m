@@ -22,7 +22,6 @@
 - (void)setupListView
 {
     
-    
 }
 
 #pragma UITableViewDataSource
