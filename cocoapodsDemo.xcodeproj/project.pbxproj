@@ -23,6 +23,7 @@
 		E1499A511A88B13A00AAED0E /* BDMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A501A88B13A00AAED0E /* BDMineController.m */; };
 		E153174E1A84A77E009CE834 /* SingleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E153174D1A84A77E009CE834 /* SingleManager.m */; };
 		E177B2661A884CF600EBC874 /* TestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E177B2651A884CF600EBC874 /* TestManager.m */; };
+		E192545D1AA0143200D183A4 /* BDBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E192545C1AA0143200D183A4 /* BDBaseTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,8 @@
 		E153174D1A84A77E009CE834 /* SingleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleManager.m; sourceTree = "<group>"; };
 		E177B2641A884CF600EBC874 /* TestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestManager.h; sourceTree = "<group>"; };
 		E177B2651A884CF600EBC874 /* TestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestManager.m; sourceTree = "<group>"; };
+		E192545B1AA0143200D183A4 /* BDBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBaseTableViewController.h; sourceTree = "<group>"; };
+		E192545C1AA0143200D183A4 /* BDBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBaseTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 			children = (
 				E1499A2F1A88A8CA00AAED0E /* BDBaseViewController.h */,
 				E1499A301A88A8CA00AAED0E /* BDBaseViewController.m */,
+				E192545B1AA0143200D183A4 /* BDBaseTableViewController.h */,
+				E192545C1AA0143200D183A4 /* BDBaseTableViewController.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 				E1075B511A8070B9002ADDF7 /* main.m in Sources */,
 				E1499A4E1A88B12900AAED0E /* BDFilmController.m in Sources */,
 				E1499A511A88B13A00AAED0E /* BDMineController.m in Sources */,
+				E192545D1AA0143200D183A4 /* BDBaseTableViewController.m in Sources */,
 				E1075B571A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld in Sources */,
 				E153174E1A84A77E009CE834 /* SingleManager.m in Sources */,
 				E1499A3B1A88AC2900AAED0E /* BDWorkbenchController.m in Sources */,

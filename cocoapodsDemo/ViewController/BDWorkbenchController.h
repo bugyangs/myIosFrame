@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BDBaseViewController.h"
 #import "BDNewsController.h"
 #import "BDAblumController.h"
 #import "BDMineController.h"
 #import "BDFilmController.h"
 @interface BDWorkbenchController : UITabBarController
+
+- (void)loadMenu:(NSArray *)menuArray;
 
 @end
