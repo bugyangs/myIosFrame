@@ -10,18 +10,27 @@
 
 @interface BDBaseTableViewController ()
 
+
 @end
 
 @implementation BDBaseTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    [self setupListView];
+    
 }
 
 - (void)setupListView
 {
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, DeviceWidth, DeviceHeight)];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+//    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
+    UIView *v = [[UIView alloc] initWithFrame:CGRectZero];
+    [self.tableView setTableFooterView:v];
+    [self.view addSubview:self.tableView];
 }
 
 #pragma UITableViewDataSource

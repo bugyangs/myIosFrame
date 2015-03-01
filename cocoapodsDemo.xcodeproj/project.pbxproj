@@ -14,6 +14,9 @@
 		E1075B5D1A8070B9002ADDF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1075B5B1A8070B9002ADDF7 /* Main.storyboard */; };
 		E1075B5F1A8070B9002ADDF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1075B5E1A8070B9002ADDF7 /* Images.xcassets */; };
 		E1075B621A8070B9002ADDF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1075B601A8070B9002ADDF7 /* LaunchScreen.xib */; };
+		E10C1AB41AA0D10C007841C6 /* BDNewsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E10C1AB21AA0D10C007841C6 /* BDNewsViewCell.m */; };
+		E10C1AB51AA0D10C007841C6 /* BDNewsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10C1AB31AA0D10C007841C6 /* BDNewsViewCell.xib */; };
+		E10C1AB91AA15025007841C6 /* UITableView+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = E10C1AB81AA15025007841C6 /* UITableView+Register.m */; };
 		E1499A311A88A8CA00AAED0E /* BDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A301A88A8CA00AAED0E /* BDBaseViewController.m */; };
 		E1499A3B1A88AC2900AAED0E /* BDWorkbenchController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A3A1A88AC2900AAED0E /* BDWorkbenchController.m */; };
 		E1499A3E1A88AEFE00AAED0E /* BDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A3D1A88AEFE00AAED0E /* BDRootViewController.m */; };
@@ -39,6 +42,12 @@
 		E1075B5C1A8070B9002ADDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1075B5E1A8070B9002ADDF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E1075B611A8070B9002ADDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E10C1AA11AA0CCE5007841C6 /* cocoapodsDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocoapodsDemo.h; sourceTree = "<group>"; };
+		E10C1AB11AA0D10C007841C6 /* BDNewsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDNewsViewCell.h; path = ../../../../../../Documents/BDNewsViewCell.h; sourceTree = "<group>"; };
+		E10C1AB21AA0D10C007841C6 /* BDNewsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BDNewsViewCell.m; path = ../../../../../../Documents/BDNewsViewCell.m; sourceTree = "<group>"; };
+		E10C1AB31AA0D10C007841C6 /* BDNewsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BDNewsViewCell.xib; path = ../../../../../../Documents/BDNewsViewCell.xib; sourceTree = "<group>"; };
+		E10C1AB71AA15025007841C6 /* UITableView+Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Register.h"; sourceTree = "<group>"; };
+		E10C1AB81AA15025007841C6 /* UITableView+Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Register.m"; sourceTree = "<group>"; };
 		E1499A2F1A88A8CA00AAED0E /* BDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBaseViewController.h; sourceTree = "<group>"; };
 		E1499A301A88A8CA00AAED0E /* BDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBaseViewController.m; sourceTree = "<group>"; };
 		E1499A391A88AC2900AAED0E /* BDWorkbenchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDWorkbenchController.h; sourceTree = "<group>"; };
@@ -118,8 +127,10 @@
 				E1075B5B1A8070B9002ADDF7 /* Main.storyboard */,
 				E1075B5E1A8070B9002ADDF7 /* Images.xcassets */,
 				E153174B1A84A761009CE834 /* Util */,
+				E10C1AB61AA14FD5007841C6 /* Category */,
 				E1499A2E1A88A8B700AAED0E /* Common */,
 				E1A063E61A81E4ED00195562 /* ViewController */,
+				E10C1AAA1AA0D01F007841C6 /* View */,
 				E1075B601A8070B9002ADDF7 /* LaunchScreen.xib */,
 				E1075B551A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld */,
 				E1075B4E1A8070B9002ADDF7 /* Supporting Files */,
@@ -132,8 +143,36 @@
 			children = (
 				E1075B4F1A8070B9002ADDF7 /* Info.plist */,
 				E1075B501A8070B9002ADDF7 /* main.m */,
+				E10C1AA11AA0CCE5007841C6 /* cocoapodsDemo.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E10C1AAA1AA0D01F007841C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E10C1AAB1AA0D041007841C6 /* News */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E10C1AAB1AA0D041007841C6 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				E10C1AB11AA0D10C007841C6 /* BDNewsViewCell.h */,
+				E10C1AB21AA0D10C007841C6 /* BDNewsViewCell.m */,
+				E10C1AB31AA0D10C007841C6 /* BDNewsViewCell.xib */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		E10C1AB61AA14FD5007841C6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E10C1AB71AA15025007841C6 /* UITableView+Register.h */,
+				E10C1AB81AA15025007841C6 /* UITableView+Register.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		E1499A2E1A88A8B700AAED0E /* Common */ = {
@@ -267,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1075B5D1A8070B9002ADDF7 /* Main.storyboard in Resources */,
+				E10C1AB51AA0D10C007841C6 /* BDNewsViewCell.xib in Resources */,
 				E1075B621A8070B9002ADDF7 /* LaunchScreen.xib in Resources */,
 				E1075B5F1A8070B9002ADDF7 /* Images.xcassets in Resources */,
 			);
@@ -320,6 +360,8 @@
 				E177B2661A884CF600EBC874 /* TestManager.m in Sources */,
 				E1075B511A8070B9002ADDF7 /* main.m in Sources */,
 				E1499A4E1A88B12900AAED0E /* BDFilmController.m in Sources */,
+				E10C1AB41AA0D10C007841C6 /* BDNewsViewCell.m in Sources */,
+				E10C1AB91AA15025007841C6 /* UITableView+Register.m in Sources */,
 				E1499A511A88B13A00AAED0E /* BDMineController.m in Sources */,
 				E192545D1AA0143200D183A4 /* BDBaseTableViewController.m in Sources */,
 				E1075B571A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld in Sources */,
@@ -373,6 +415,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = cocoapodsDemo/cocoapodsDemo.h;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -413,6 +456,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = cocoapodsDemo/cocoapodsDemo.h;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

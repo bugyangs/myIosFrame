@@ -10,6 +10,6 @@
 
 @interface BDBaseTableViewController : BDBaseViewController <UITableViewDataSource,UITableViewDelegate>
 
-@property (nonatomic, weak, readonly) UITableView *tableView;
+@property (nonatomic, strong) UITableView *tableView;
 
 @end

@@ -8,6 +8,6 @@
 
 #import "BDBaseViewController.h"
 
-@interface BDNewsController : BDBaseViewController
+@interface BDNewsController : BDBaseTableViewController
 
 @end
