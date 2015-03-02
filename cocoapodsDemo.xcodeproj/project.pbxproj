@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E14F57A1AA3F825002DE9DA /* BDNewsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E14F5781AA3F825002DE9DA /* BDNewsViewCell.m */; };
+		0E14F57B1AA3F825002DE9DA /* BDNewsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E14F5791AA3F825002DE9DA /* BDNewsViewCell.xib */; };
 		A729B4B01E5F09D37A0C9BA7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 289AD08D811A7F66C4FF3E46 /* libPods.a */; };
 		E1075B511A8070B9002ADDF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1075B501A8070B9002ADDF7 /* main.m */; };
 		E1075B541A8070B9002ADDF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1075B531A8070B9002ADDF7 /* AppDelegate.m */; };
@@ -14,8 +16,6 @@
 		E1075B5D1A8070B9002ADDF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1075B5B1A8070B9002ADDF7 /* Main.storyboard */; };
 		E1075B5F1A8070B9002ADDF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1075B5E1A8070B9002ADDF7 /* Images.xcassets */; };
 		E1075B621A8070B9002ADDF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1075B601A8070B9002ADDF7 /* LaunchScreen.xib */; };
-		E10C1AB41AA0D10C007841C6 /* BDNewsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E10C1AB21AA0D10C007841C6 /* BDNewsViewCell.m */; };
-		E10C1AB51AA0D10C007841C6 /* BDNewsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10C1AB31AA0D10C007841C6 /* BDNewsViewCell.xib */; };
 		E10C1AB91AA15025007841C6 /* UITableView+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = E10C1AB81AA15025007841C6 /* UITableView+Register.m */; };
 		E1499A311A88A8CA00AAED0E /* BDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A301A88A8CA00AAED0E /* BDBaseViewController.m */; };
 		E1499A3B1A88AC2900AAED0E /* BDWorkbenchController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1499A3A1A88AC2900AAED0E /* BDWorkbenchController.m */; };
@@ -30,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E14F5771AA3F825002DE9DA /* BDNewsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDNewsViewCell.h; sourceTree = "<group>"; };
+		0E14F5781AA3F825002DE9DA /* BDNewsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDNewsViewCell.m; sourceTree = "<group>"; };
+		0E14F5791AA3F825002DE9DA /* BDNewsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDNewsViewCell.xib; sourceTree = "<group>"; };
 		10743104849F9CC6EA02B1E0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		289AD08D811A7F66C4FF3E46 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50692820192AB973B4BE957B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -43,9 +46,6 @@
 		E1075B5E1A8070B9002ADDF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E1075B611A8070B9002ADDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E10C1AA11AA0CCE5007841C6 /* cocoapodsDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocoapodsDemo.h; sourceTree = "<group>"; };
-		E10C1AB11AA0D10C007841C6 /* BDNewsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDNewsViewCell.h; path = ../../../../../../Documents/BDNewsViewCell.h; sourceTree = "<group>"; };
-		E10C1AB21AA0D10C007841C6 /* BDNewsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BDNewsViewCell.m; path = ../../../../../../Documents/BDNewsViewCell.m; sourceTree = "<group>"; };
-		E10C1AB31AA0D10C007841C6 /* BDNewsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BDNewsViewCell.xib; path = ../../../../../../Documents/BDNewsViewCell.xib; sourceTree = "<group>"; };
 		E10C1AB71AA15025007841C6 /* UITableView+Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Register.h"; sourceTree = "<group>"; };
 		E10C1AB81AA15025007841C6 /* UITableView+Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Register.m"; sourceTree = "<group>"; };
 		E1499A2F1A88A8CA00AAED0E /* BDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBaseViewController.h; sourceTree = "<group>"; };
@@ -82,6 +82,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E14F5751AA3F810002DE9DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E14F5761AA3F810002DE9DA /* News */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E14F5761AA3F810002DE9DA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				0E14F5771AA3F825002DE9DA /* BDNewsViewCell.h */,
+				0E14F5781AA3F825002DE9DA /* BDNewsViewCell.m */,
+				0E14F5791AA3F825002DE9DA /* BDNewsViewCell.xib */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
 		1B946EF446177225F553A3A3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +148,7 @@
 				E10C1AB61AA14FD5007841C6 /* Category */,
 				E1499A2E1A88A8B700AAED0E /* Common */,
 				E1A063E61A81E4ED00195562 /* ViewController */,
-				E10C1AAA1AA0D01F007841C6 /* View */,
+				0E14F5751AA3F810002DE9DA /* View */,
 				E1075B601A8070B9002ADDF7 /* LaunchScreen.xib */,
 				E1075B551A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld */,
 				E1075B4E1A8070B9002ADDF7 /* Supporting Files */,
@@ -146,24 +164,6 @@
 				E10C1AA11AA0CCE5007841C6 /* cocoapodsDemo.h */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E10C1AAA1AA0D01F007841C6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E10C1AAB1AA0D041007841C6 /* News */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E10C1AAB1AA0D041007841C6 /* News */ = {
-			isa = PBXGroup;
-			children = (
-				E10C1AB11AA0D10C007841C6 /* BDNewsViewCell.h */,
-				E10C1AB21AA0D10C007841C6 /* BDNewsViewCell.m */,
-				E10C1AB31AA0D10C007841C6 /* BDNewsViewCell.xib */,
-			);
-			path = News;
 			sourceTree = "<group>";
 		};
 		E10C1AB61AA14FD5007841C6 /* Category */ = {
@@ -306,7 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1075B5D1A8070B9002ADDF7 /* Main.storyboard in Resources */,
-				E10C1AB51AA0D10C007841C6 /* BDNewsViewCell.xib in Resources */,
+				0E14F57B1AA3F825002DE9DA /* BDNewsViewCell.xib in Resources */,
 				E1075B621A8070B9002ADDF7 /* LaunchScreen.xib in Resources */,
 				E1075B5F1A8070B9002ADDF7 /* Images.xcassets in Resources */,
 			);
@@ -354,13 +354,13 @@
 			files = (
 				E1499A451A88B0CF00AAED0E /* BDNewsController.m in Sources */,
 				E1075B541A8070B9002ADDF7 /* AppDelegate.m in Sources */,
+				0E14F57A1AA3F825002DE9DA /* BDNewsViewCell.m in Sources */,
 				E1499A311A88A8CA00AAED0E /* BDBaseViewController.m in Sources */,
 				E1499A4B1A88B11800AAED0E /* BDAblumController.m in Sources */,
 				E1499A3E1A88AEFE00AAED0E /* BDRootViewController.m in Sources */,
 				E177B2661A884CF600EBC874 /* TestManager.m in Sources */,
 				E1075B511A8070B9002ADDF7 /* main.m in Sources */,
 				E1499A4E1A88B12900AAED0E /* BDFilmController.m in Sources */,
-				E10C1AB41AA0D10C007841C6 /* BDNewsViewCell.m in Sources */,
 				E10C1AB91AA15025007841C6 /* UITableView+Register.m in Sources */,
 				E1499A511A88B13A00AAED0E /* BDMineController.m in Sources */,
 				E192545D1AA0143200D183A4 /* BDBaseTableViewController.m in Sources */,

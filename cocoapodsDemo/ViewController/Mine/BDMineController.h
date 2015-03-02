@@ -8,6 +8,6 @@
 
 #import "BDBaseViewController.h"
 
-@interface BDMineController : BDBaseViewController
+@interface BDMineController : BDBaseTableViewController
 
 @end
