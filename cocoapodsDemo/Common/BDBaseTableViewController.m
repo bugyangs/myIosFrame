@@ -18,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupListView];
+    [self registerCell];
+}
+
+- (void)registerCell
+{
     
 }
 

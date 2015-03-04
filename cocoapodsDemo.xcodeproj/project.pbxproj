@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E02D4741AA6F1AF000179F1 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E02D4731AA6F1AF000179F1 /* Test1.m */; };
+		0E02D4771AA6F1B8000179F1 /* Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E02D4761AA6F1B8000179F1 /* Test2.m */; };
 		0E14F57A1AA3F825002DE9DA /* BDNewsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E14F5781AA3F825002DE9DA /* BDNewsViewCell.m */; };
 		0E14F57B1AA3F825002DE9DA /* BDNewsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E14F5791AA3F825002DE9DA /* BDNewsViewCell.xib */; };
+		0E14F5801AA3F94A002DE9DA /* BDMineViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E14F57E1AA3F94A002DE9DA /* BDMineViewCell.m */; };
+		0E14F5811AA3F94A002DE9DA /* BDMineViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E14F57F1AA3F94A002DE9DA /* BDMineViewCell.xib */; };
+		0E14F5851AA3FD34002DE9DA /* BDTimeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E14F5831AA3FD34002DE9DA /* BDTimeViewCell.m */; };
+		0E14F5861AA3FD34002DE9DA /* BDTimeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E14F5841AA3FD34002DE9DA /* BDTimeViewCell.xib */; };
+		0E14F5891AA3FD6C002DE9DA /* BDTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E14F5881AA3FD6C002DE9DA /* BDTimeController.m */; };
+		0E688F261AA59839000DFCB9 /* BDPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E688F251AA59839000DFCB9 /* BDPickerView.m */; };
+		0E688F281AA59849000DFCB9 /* BDPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E688F271AA59849000DFCB9 /* BDPickerView.xib */; };
+		0E97FF8B1AA54E01004A7169 /* BDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97FF8A1AA54E01004A7169 /* BDAlertView.m */; };
+		0E97FF8D1AA54E15004A7169 /* BDAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E97FF8C1AA54E15004A7169 /* BDAlertView.xib */; };
+		0E97FF951AA5535A004A7169 /* BDAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97FF941AA5535A004A7169 /* BDAlertController.m */; };
+		0E97FF991AA553D1004A7169 /* BDAlertViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97FF971AA553D1004A7169 /* BDAlertViewCell.m */; };
+		0E97FF9A1AA553D1004A7169 /* BDAlertViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E97FF981AA553D1004A7169 /* BDAlertViewCell.xib */; };
 		A729B4B01E5F09D37A0C9BA7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 289AD08D811A7F66C4FF3E46 /* libPods.a */; };
 		E1075B511A8070B9002ADDF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1075B501A8070B9002ADDF7 /* main.m */; };
 		E1075B541A8070B9002ADDF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1075B531A8070B9002ADDF7 /* AppDelegate.m */; };
@@ -30,9 +44,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E02D4721AA6F1AF000179F1 /* Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		0E02D4731AA6F1AF000179F1 /* Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
+		0E02D4751AA6F1B8000179F1 /* Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2.h; sourceTree = "<group>"; };
+		0E02D4761AA6F1B8000179F1 /* Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2.m; sourceTree = "<group>"; };
 		0E14F5771AA3F825002DE9DA /* BDNewsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDNewsViewCell.h; sourceTree = "<group>"; };
 		0E14F5781AA3F825002DE9DA /* BDNewsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDNewsViewCell.m; sourceTree = "<group>"; };
 		0E14F5791AA3F825002DE9DA /* BDNewsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDNewsViewCell.xib; sourceTree = "<group>"; };
+		0E14F57D1AA3F94A002DE9DA /* BDMineViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDMineViewCell.h; sourceTree = "<group>"; };
+		0E14F57E1AA3F94A002DE9DA /* BDMineViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDMineViewCell.m; sourceTree = "<group>"; };
+		0E14F57F1AA3F94A002DE9DA /* BDMineViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDMineViewCell.xib; sourceTree = "<group>"; };
+		0E14F5821AA3FD34002DE9DA /* BDTimeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDTimeViewCell.h; sourceTree = "<group>"; };
+		0E14F5831AA3FD34002DE9DA /* BDTimeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDTimeViewCell.m; sourceTree = "<group>"; };
+		0E14F5841AA3FD34002DE9DA /* BDTimeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDTimeViewCell.xib; sourceTree = "<group>"; };
+		0E14F5871AA3FD6C002DE9DA /* BDTimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDTimeController.h; sourceTree = "<group>"; };
+		0E14F5881AA3FD6C002DE9DA /* BDTimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDTimeController.m; sourceTree = "<group>"; };
+		0E688F241AA59839000DFCB9 /* BDPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPickerView.h; sourceTree = "<group>"; };
+		0E688F251AA59839000DFCB9 /* BDPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPickerView.m; sourceTree = "<group>"; };
+		0E688F271AA59849000DFCB9 /* BDPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDPickerView.xib; sourceTree = "<group>"; };
+		0E97FF891AA54E01004A7169 /* BDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDAlertView.h; sourceTree = "<group>"; };
+		0E97FF8A1AA54E01004A7169 /* BDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDAlertView.m; sourceTree = "<group>"; };
+		0E97FF8C1AA54E15004A7169 /* BDAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDAlertView.xib; sourceTree = "<group>"; };
+		0E97FF931AA5535A004A7169 /* BDAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDAlertController.h; sourceTree = "<group>"; };
+		0E97FF941AA5535A004A7169 /* BDAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDAlertController.m; sourceTree = "<group>"; };
+		0E97FF961AA553D1004A7169 /* BDAlertViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDAlertViewCell.h; sourceTree = "<group>"; };
+		0E97FF971AA553D1004A7169 /* BDAlertViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDAlertViewCell.m; sourceTree = "<group>"; };
+		0E97FF981AA553D1004A7169 /* BDAlertViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDAlertViewCell.xib; sourceTree = "<group>"; };
 		10743104849F9CC6EA02B1E0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		289AD08D811A7F66C4FF3E46 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50692820192AB973B4BE957B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,10 +119,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E02D4711AA6F19C000179F1 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				0E02D4721AA6F1AF000179F1 /* Test1.h */,
+				0E02D4731AA6F1AF000179F1 /* Test1.m */,
+				0E02D4751AA6F1B8000179F1 /* Test2.h */,
+				0E02D4761AA6F1B8000179F1 /* Test2.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		0E14F5751AA3F810002DE9DA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0E97FF881AA54DE2004A7169 /* Common */,
 				0E14F5761AA3F810002DE9DA /* News */,
+				0E14F57C1AA3F924002DE9DA /* Mine */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +148,35 @@
 				0E14F5791AA3F825002DE9DA /* BDNewsViewCell.xib */,
 			);
 			path = News;
+			sourceTree = "<group>";
+		};
+		0E14F57C1AA3F924002DE9DA /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				0E14F57D1AA3F94A002DE9DA /* BDMineViewCell.h */,
+				0E14F57E1AA3F94A002DE9DA /* BDMineViewCell.m */,
+				0E14F57F1AA3F94A002DE9DA /* BDMineViewCell.xib */,
+				0E14F5821AA3FD34002DE9DA /* BDTimeViewCell.h */,
+				0E14F5831AA3FD34002DE9DA /* BDTimeViewCell.m */,
+				0E14F5841AA3FD34002DE9DA /* BDTimeViewCell.xib */,
+				0E97FF961AA553D1004A7169 /* BDAlertViewCell.h */,
+				0E97FF971AA553D1004A7169 /* BDAlertViewCell.m */,
+				0E97FF981AA553D1004A7169 /* BDAlertViewCell.xib */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		0E97FF881AA54DE2004A7169 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0E97FF891AA54E01004A7169 /* BDAlertView.h */,
+				0E97FF8A1AA54E01004A7169 /* BDAlertView.m */,
+				0E97FF8C1AA54E15004A7169 /* BDAlertView.xib */,
+				0E688F241AA59839000DFCB9 /* BDPickerView.h */,
+				0E688F251AA59839000DFCB9 /* BDPickerView.m */,
+				0E688F271AA59849000DFCB9 /* BDPickerView.xib */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		1B946EF446177225F553A3A3 /* Pods */ = {
@@ -144,6 +223,7 @@
 				E1499A3D1A88AEFE00AAED0E /* BDRootViewController.m */,
 				E1075B5B1A8070B9002ADDF7 /* Main.storyboard */,
 				E1075B5E1A8070B9002ADDF7 /* Images.xcassets */,
+				0E02D4711AA6F19C000179F1 /* Test */,
 				E153174B1A84A761009CE834 /* Util */,
 				E10C1AB61AA14FD5007841C6 /* Category */,
 				E1499A2E1A88A8B700AAED0E /* Common */,
@@ -218,6 +298,10 @@
 			children = (
 				E1499A4F1A88B13A00AAED0E /* BDMineController.h */,
 				E1499A501A88B13A00AAED0E /* BDMineController.m */,
+				0E14F5871AA3FD6C002DE9DA /* BDTimeController.h */,
+				0E14F5881AA3FD6C002DE9DA /* BDTimeController.m */,
+				0E97FF931AA5535A004A7169 /* BDAlertController.h */,
+				0E97FF941AA5535A004A7169 /* BDAlertController.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -305,10 +389,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E97FF9A1AA553D1004A7169 /* BDAlertViewCell.xib in Resources */,
+				0E97FF8D1AA54E15004A7169 /* BDAlertView.xib in Resources */,
 				E1075B5D1A8070B9002ADDF7 /* Main.storyboard in Resources */,
 				0E14F57B1AA3F825002DE9DA /* BDNewsViewCell.xib in Resources */,
 				E1075B621A8070B9002ADDF7 /* LaunchScreen.xib in Resources */,
 				E1075B5F1A8070B9002ADDF7 /* Images.xcassets in Resources */,
+				0E688F281AA59849000DFCB9 /* BDPickerView.xib in Resources */,
+				0E14F5811AA3F94A002DE9DA /* BDMineViewCell.xib in Resources */,
+				0E14F5861AA3FD34002DE9DA /* BDTimeViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,19 +442,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1499A451A88B0CF00AAED0E /* BDNewsController.m in Sources */,
+				0E97FF951AA5535A004A7169 /* BDAlertController.m in Sources */,
 				E1075B541A8070B9002ADDF7 /* AppDelegate.m in Sources */,
 				0E14F57A1AA3F825002DE9DA /* BDNewsViewCell.m in Sources */,
 				E1499A311A88A8CA00AAED0E /* BDBaseViewController.m in Sources */,
 				E1499A4B1A88B11800AAED0E /* BDAblumController.m in Sources */,
+				0E02D4741AA6F1AF000179F1 /* Test1.m in Sources */,
+				0E14F5801AA3F94A002DE9DA /* BDMineViewCell.m in Sources */,
 				E1499A3E1A88AEFE00AAED0E /* BDRootViewController.m in Sources */,
 				E177B2661A884CF600EBC874 /* TestManager.m in Sources */,
+				0E97FF8B1AA54E01004A7169 /* BDAlertView.m in Sources */,
 				E1075B511A8070B9002ADDF7 /* main.m in Sources */,
+				0E02D4771AA6F1B8000179F1 /* Test2.m in Sources */,
+				0E14F5851AA3FD34002DE9DA /* BDTimeViewCell.m in Sources */,
 				E1499A4E1A88B12900AAED0E /* BDFilmController.m in Sources */,
 				E10C1AB91AA15025007841C6 /* UITableView+Register.m in Sources */,
+				0E97FF991AA553D1004A7169 /* BDAlertViewCell.m in Sources */,
 				E1499A511A88B13A00AAED0E /* BDMineController.m in Sources */,
+				0E688F261AA59839000DFCB9 /* BDPickerView.m in Sources */,
 				E192545D1AA0143200D183A4 /* BDBaseTableViewController.m in Sources */,
 				E1075B571A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld in Sources */,
 				E153174E1A84A77E009CE834 /* SingleManager.m in Sources */,
+				0E14F5891AA3FD6C002DE9DA /* BDTimeController.m in Sources */,
 				E1499A3B1A88AC2900AAED0E /* BDWorkbenchController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

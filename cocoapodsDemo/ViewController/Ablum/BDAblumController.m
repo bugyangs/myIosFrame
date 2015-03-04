@@ -23,7 +23,7 @@ static NSInteger mark = 0;
     [super viewDidLoad];
 
     [self initUI];
-    [self dispatchTest];
+//    [self dispatchTest];
 }
 
 - (void)initUI

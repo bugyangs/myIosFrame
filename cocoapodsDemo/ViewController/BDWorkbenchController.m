@@ -23,7 +23,7 @@
                    @{@"class":@"BDMineController",@"title":@"我的",@"icon":@"",@"selectIcon":@""},
                   ];
     [self loadMenu: _menuArray];
-    self.selectedIndex = 1;
+    self.selectedIndex = 3;
 }
 
 //通过传入字典数组生成菜单

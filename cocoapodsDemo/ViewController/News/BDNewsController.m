@@ -20,7 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initTableData];
-    [self registerCell];
     [self.tableView reloadData];
 }
 

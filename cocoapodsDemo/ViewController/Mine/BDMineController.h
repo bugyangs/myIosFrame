@@ -7,6 +7,7 @@
 //
 
 #import "BDBaseViewController.h"
+#import "BDMineViewCell.h"
 
 @interface BDMineController : BDBaseTableViewController
 

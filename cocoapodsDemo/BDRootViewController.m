@@ -7,7 +7,8 @@
 //
 
 #import "BDRootViewController.h"
-
+#import "Test1.h"
+#import "Test2.h"
 @interface BDRootViewController ()
 
 @end
@@ -17,22 +18,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self initRootView];
+//    [self initRootView];
+    
+    [self initTest];
 }
 
 - (void)initTest
 {
-    __block int i = 1024;
-    int j = 1;
-    NSLog(@"--------");
-    void (^tBlock)(void);
+    Test1 *t1 = [[Test1 alloc]init];
     
-    tBlock = ^{
-        NSLog(@"-----%d-----%d", i, j);
-    };
-    i++;
-    j++;
-    tBlock();
+    
+//    __block NSInteger i = 10;
+//    NSInteger j = 20;
+//    
+//    void (^testBlock)(void) = ^{
+//        NSLog(@"-------%ld---------%ld", (long)i, (long)j);
+//    };
+//    i = 100;
+//    j = 200;
+//    testBlock();
+//    
+//    void (^copyBlock)(void) = [testBlock copy];
+//    copyBlock();
 }
 
 - (void)initRootView
@@ -46,7 +53,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
