@@ -12,6 +12,8 @@
 #define DeviceHeight [UIScreen mainScreen].bounds.size.height
 #define DeviceWidth  [UIScreen mainScreen].bounds.size.width
 
+#import "BDUtil.h"
+
 #import "BDBaseViewController.h"
 #import "BDBaseTableViewController.h"
 #import "UITableView+Register.h"

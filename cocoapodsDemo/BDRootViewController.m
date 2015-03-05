@@ -18,14 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    [self initRootView];
+    [self initRootView];
     
-    [self initTest];
+//    [self initTest];
 }
 
 - (void)initTest
 {
-    Test1 *t1 = [[Test1 alloc]init];
+//    Test1 *t1 = [[Test1 alloc]init];
     
     
 //    __block NSInteger i = 10;

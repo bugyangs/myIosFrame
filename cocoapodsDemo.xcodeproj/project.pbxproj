@@ -16,6 +16,7 @@
 		0E14F5851AA3FD34002DE9DA /* BDTimeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E14F5831AA3FD34002DE9DA /* BDTimeViewCell.m */; };
 		0E14F5861AA3FD34002DE9DA /* BDTimeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E14F5841AA3FD34002DE9DA /* BDTimeViewCell.xib */; };
 		0E14F5891AA3FD6C002DE9DA /* BDTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E14F5881AA3FD6C002DE9DA /* BDTimeController.m */; };
+		0E5D5D431AA800DF00944AF7 /* BDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D5D421AA800DF00944AF7 /* BDUtil.m */; };
 		0E688F261AA59839000DFCB9 /* BDPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E688F251AA59839000DFCB9 /* BDPickerView.m */; };
 		0E688F281AA59849000DFCB9 /* BDPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E688F271AA59849000DFCB9 /* BDPickerView.xib */; };
 		0E97FF8B1AA54E01004A7169 /* BDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97FF8A1AA54E01004A7169 /* BDAlertView.m */; };
@@ -59,6 +60,8 @@
 		0E14F5841AA3FD34002DE9DA /* BDTimeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDTimeViewCell.xib; sourceTree = "<group>"; };
 		0E14F5871AA3FD6C002DE9DA /* BDTimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDTimeController.h; sourceTree = "<group>"; };
 		0E14F5881AA3FD6C002DE9DA /* BDTimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDTimeController.m; sourceTree = "<group>"; };
+		0E5D5D411AA800DF00944AF7 /* BDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDUtil.h; sourceTree = "<group>"; };
+		0E5D5D421AA800DF00944AF7 /* BDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDUtil.m; sourceTree = "<group>"; };
 		0E688F241AA59839000DFCB9 /* BDPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPickerView.h; sourceTree = "<group>"; };
 		0E688F251AA59839000DFCB9 /* BDPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPickerView.m; sourceTree = "<group>"; };
 		0E688F271AA59849000DFCB9 /* BDPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDPickerView.xib; sourceTree = "<group>"; };
@@ -313,6 +316,8 @@
 				E153174D1A84A77E009CE834 /* SingleManager.m */,
 				E177B2641A884CF600EBC874 /* TestManager.h */,
 				E177B2651A884CF600EBC874 /* TestManager.m */,
+				0E5D5D411AA800DF00944AF7 /* BDUtil.h */,
+				0E5D5D421AA800DF00944AF7 /* BDUtil.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -451,6 +456,7 @@
 				0E14F5801AA3F94A002DE9DA /* BDMineViewCell.m in Sources */,
 				E1499A3E1A88AEFE00AAED0E /* BDRootViewController.m in Sources */,
 				E177B2661A884CF600EBC874 /* TestManager.m in Sources */,
+				0E5D5D431AA800DF00944AF7 /* BDUtil.m in Sources */,
 				0E97FF8B1AA54E01004A7169 /* BDAlertView.m in Sources */,
 				E1075B511A8070B9002ADDF7 /* main.m in Sources */,
 				0E02D4771AA6F1B8000179F1 /* Test2.m in Sources */,

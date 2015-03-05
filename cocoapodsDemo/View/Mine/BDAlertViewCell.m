@@ -9,10 +9,19 @@
 #import "BDAlertViewCell.h"
 #import "BDAlertView.h"
 #import "BDPickerView.h"
+@interface BDAlertViewCell()
+
+@property (nonatomic, strong)BDAlertView *alertView;
+@property (nonatomic, strong)BDPickerView *pickerView;
+
+@end
+
 @implementation BDAlertViewCell
 
 - (void)awakeFromNib {
     self.selectionStyle = UITableViewCellSelectionStyleNone;
+    _alertView = (BDAlertView *)[BDUtil nibViewWithName:@"BDAlertView"];
+    _pickerView = (BDPickerView *)[BDUtil nibViewWithName:@"BDPickerView"];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -20,18 +29,15 @@
 }
 
 - (IBAction)normalClick:(id)sender {
-    NSArray *nibArray = [[NSBundle mainBundle] loadNibNamed:@"BDAlertView" owner:self options:nil];
-    BDAlertView *alertView = (BDAlertView *)[nibArray lastObject];
-    [alertView show];
+    [_alertView show];
 }
 
 - (IBAction)pickerClick:(id)sender {
-    NSArray *nibArray = [[NSBundle mainBundle] loadNibNamed:@"BDPickerView" owner:self options:nil];
-    BDPickerView *pickerView = (BDPickerView *)[nibArray lastObject];
-    pickerView.pickerArray = @[@"男", @"女"];
-    pickerView.pickerSelectBlock = ^(NSString *title) {
+    
+    _pickerView.pickerArray = @[@"男", @"女"];
+    _pickerView.pickerSelectBlock = ^(NSString *title) {
         self.pickerLabel.text = title;
     };
-    [pickerView show];
+    [_pickerView show];
 }
 @end

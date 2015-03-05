@@ -7,15 +7,17 @@
 //
 
 #import "BDPickerView.h"
+@interface BDPickerView()
 
+@property (nonatomic) BOOL isFirstShow;
+
+@end
 @implementation BDPickerView
 
 - (void)awakeFromNib {
-    
-//    self.layer.cornerRadius = 8;
-//    self.layer.masksToBounds = YES;
     _pickerView.dataSource = self;
     _pickerView.delegate = self;
+    _isFirstShow = YES;
 }
 
 -(void)show
@@ -23,6 +25,10 @@
     if (!_maskUIView) {
         _maskUIView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, DeviceWidth, DeviceHeight)];
         _maskUIView.backgroundColor = [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:0.3];
+        _maskUIView.userInteractionEnabled = YES;
+        UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(closeView:)];
+        [_maskUIView addGestureRecognizer:tapGesture];
+
     }
     
     UIViewController *rootViewController = [UIApplication sharedApplication].delegate.window.rootViewController;
@@ -32,6 +38,12 @@
         self.frame = CGRectMake(0, DeviceHeight - self.frame.size.height, self.frame.size.width, self.frame.size.height);
     }
     [rootViewController.view addSubview:self];
+    if (_isFirstShow) {
+        if (_pickerSelectBlock) {
+            _pickerSelectBlock(_pickerArray[0]);
+        }
+        _isFirstShow = NO;
+    }
 }
 
 -(void)closeView:(id)sender

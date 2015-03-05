@@ -17,14 +17,12 @@
     [_okButton addTarget:self action:@selector(closeView:) forControlEvents:UIControlEventTouchUpInside];
 }
 
-
 -(void)show
 {
     if (!_maskUIView) {
         _maskUIView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, DeviceWidth, DeviceHeight)];
         _maskUIView.backgroundColor = [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:0.3];
     }
-    
     UIViewController *rootViewController = [UIApplication sharedApplication].delegate.window.rootViewController;
     [rootViewController.view addSubview:_maskUIView];
     //设置默认位置
