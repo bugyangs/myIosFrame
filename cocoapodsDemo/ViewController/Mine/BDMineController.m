@@ -9,6 +9,7 @@
 #import "BDMineController.h"
 #import "BDTimeController.h"
 #import "BDAlertController.h"
+#import "BDTestController.h"
 @interface BDMineController ()
 
 @property (nonatomic, strong)NSArray *menuArray;
@@ -32,7 +33,7 @@
 
 - (void)initData
 {
-    _menuArray = @[@"时间",@"弹窗"];
+    _menuArray = @[@"时间",@"弹窗",@"测试"];
 }
 
 #pragma UITableViewDataSource
@@ -62,6 +63,12 @@
         BDAlertController *alertController = [[BDAlertController alloc] init];
         [alertController setHidesBottomBarWhenPushed:YES];
         [self.navigationController pushViewController:alertController animated:YES];
+    }
+    else if (indexPath.row == 2) {
+        
+        BDTestController *testController = [[BDTestController alloc] init];
+        [testController setHidesBottomBarWhenPushed:YES];
+        [self.navigationController pushViewController:testController animated:YES];
     }
 }
 

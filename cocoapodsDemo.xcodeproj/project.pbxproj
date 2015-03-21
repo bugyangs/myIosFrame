@@ -16,6 +16,10 @@
 		0E14F5851AA3FD34002DE9DA /* BDTimeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E14F5831AA3FD34002DE9DA /* BDTimeViewCell.m */; };
 		0E14F5861AA3FD34002DE9DA /* BDTimeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E14F5841AA3FD34002DE9DA /* BDTimeViewCell.xib */; };
 		0E14F5891AA3FD6C002DE9DA /* BDTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E14F5881AA3FD6C002DE9DA /* BDTimeController.m */; };
+		0E241A821ABAC4C000013667 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E241A801ABAC4C000013667 /* Model.xcdatamodeld */; };
+		0E288EBD1ABD49120026CD2E /* BDDb.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E288EBC1ABD49120026CD2E /* BDDb.m */; };
+		0E3625CB1AAEE25D00E3ECA9 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3625CA1AAEE25D00E3ECA9 /* ArrayDataSource.m */; };
+		0E3625CE1AAEFF5000E3ECA9 /* BDTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3625CD1AAEFF5000E3ECA9 /* BDTestController.m */; };
 		0E5D5D431AA800DF00944AF7 /* BDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D5D421AA800DF00944AF7 /* BDUtil.m */; };
 		0E688F261AA59839000DFCB9 /* BDPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E688F251AA59839000DFCB9 /* BDPickerView.m */; };
 		0E688F281AA59849000DFCB9 /* BDPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E688F271AA59849000DFCB9 /* BDPickerView.xib */; };
@@ -27,7 +31,6 @@
 		A729B4B01E5F09D37A0C9BA7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 289AD08D811A7F66C4FF3E46 /* libPods.a */; };
 		E1075B511A8070B9002ADDF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1075B501A8070B9002ADDF7 /* main.m */; };
 		E1075B541A8070B9002ADDF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1075B531A8070B9002ADDF7 /* AppDelegate.m */; };
-		E1075B571A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1075B551A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld */; };
 		E1075B5D1A8070B9002ADDF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1075B5B1A8070B9002ADDF7 /* Main.storyboard */; };
 		E1075B5F1A8070B9002ADDF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1075B5E1A8070B9002ADDF7 /* Images.xcassets */; };
 		E1075B621A8070B9002ADDF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1075B601A8070B9002ADDF7 /* LaunchScreen.xib */; };
@@ -60,11 +63,19 @@
 		0E14F5841AA3FD34002DE9DA /* BDTimeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDTimeViewCell.xib; sourceTree = "<group>"; };
 		0E14F5871AA3FD6C002DE9DA /* BDTimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDTimeController.h; sourceTree = "<group>"; };
 		0E14F5881AA3FD6C002DE9DA /* BDTimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDTimeController.m; sourceTree = "<group>"; };
+		0E241A811ABAC4C000013667 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		0E288EBB1ABD49120026CD2E /* BDDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDDb.h; sourceTree = "<group>"; };
+		0E288EBC1ABD49120026CD2E /* BDDb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDDb.m; sourceTree = "<group>"; };
+		0E3625C91AAEE25D00E3ECA9 /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		0E3625CA1AAEE25D00E3ECA9 /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		0E3625CC1AAEFF5000E3ECA9 /* BDTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDTestController.h; sourceTree = "<group>"; };
+		0E3625CD1AAEFF5000E3ECA9 /* BDTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDTestController.m; sourceTree = "<group>"; };
 		0E5D5D411AA800DF00944AF7 /* BDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDUtil.h; sourceTree = "<group>"; };
 		0E5D5D421AA800DF00944AF7 /* BDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDUtil.m; sourceTree = "<group>"; };
 		0E688F241AA59839000DFCB9 /* BDPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPickerView.h; sourceTree = "<group>"; };
 		0E688F251AA59839000DFCB9 /* BDPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPickerView.m; sourceTree = "<group>"; };
 		0E688F271AA59849000DFCB9 /* BDPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDPickerView.xib; sourceTree = "<group>"; };
+		0E778E571AB2D8C700145E6D /* libBDZyfModel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBDZyfModel.a; path = "BDZyfModel/build/Debug-iphoneos/libBDZyfModel.a"; sourceTree = "<group>"; };
 		0E97FF891AA54E01004A7169 /* BDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDAlertView.h; sourceTree = "<group>"; };
 		0E97FF8A1AA54E01004A7169 /* BDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDAlertView.m; sourceTree = "<group>"; };
 		0E97FF8C1AA54E15004A7169 /* BDAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDAlertView.xib; sourceTree = "<group>"; };
@@ -81,11 +92,10 @@
 		E1075B501A8070B9002ADDF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1075B521A8070B9002ADDF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E1075B531A8070B9002ADDF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E1075B561A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cocoapodsDemo.xcdatamodel; sourceTree = "<group>"; };
 		E1075B5C1A8070B9002ADDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1075B5E1A8070B9002ADDF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E1075B611A8070B9002ADDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E10C1AA11AA0CCE5007841C6 /* cocoapodsDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocoapodsDemo.h; sourceTree = "<group>"; };
+		E10C1AA11AA0CCE5007841C6 /* cocoapodsDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocoapodsDemo.pch; sourceTree = "<group>"; };
 		E10C1AB71AA15025007841C6 /* UITableView+Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Register.h"; sourceTree = "<group>"; };
 		E10C1AB81AA15025007841C6 /* UITableView+Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Register.m"; sourceTree = "<group>"; };
 		E1499A2F1A88A8CA00AAED0E /* BDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBaseViewController.h; sourceTree = "<group>"; };
@@ -169,6 +179,23 @@
 			path = Mine;
 			sourceTree = "<group>";
 		};
+		0E241A7F1ABAC4A600013667 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				0E241A801ABAC4C000013667 /* Model.xcdatamodeld */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		0E288EBA1ABD48BB0026CD2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E288EBB1ABD49120026CD2E /* BDDb.h */,
+				0E288EBC1ABD49120026CD2E /* BDDb.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0E97FF881AA54DE2004A7169 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +221,7 @@
 		3838C47A60393EEA44EB08FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E778E571AB2D8C700145E6D /* libBDZyfModel.a */,
 				289AD08D811A7F66C4FF3E46 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -229,11 +257,12 @@
 				0E02D4711AA6F19C000179F1 /* Test */,
 				E153174B1A84A761009CE834 /* Util */,
 				E10C1AB61AA14FD5007841C6 /* Category */,
+				0E288EBA1ABD48BB0026CD2E /* Model */,
 				E1499A2E1A88A8B700AAED0E /* Common */,
+				0E241A7F1ABAC4A600013667 /* Structure */,
 				E1A063E61A81E4ED00195562 /* ViewController */,
 				0E14F5751AA3F810002DE9DA /* View */,
 				E1075B601A8070B9002ADDF7 /* LaunchScreen.xib */,
-				E1075B551A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld */,
 				E1075B4E1A8070B9002ADDF7 /* Supporting Files */,
 			);
 			path = cocoapodsDemo;
@@ -244,7 +273,7 @@
 			children = (
 				E1075B4F1A8070B9002ADDF7 /* Info.plist */,
 				E1075B501A8070B9002ADDF7 /* main.m */,
-				E10C1AA11AA0CCE5007841C6 /* cocoapodsDemo.h */,
+				E10C1AA11AA0CCE5007841C6 /* cocoapodsDemo.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -305,6 +334,8 @@
 				0E14F5881AA3FD6C002DE9DA /* BDTimeController.m */,
 				0E97FF931AA5535A004A7169 /* BDAlertController.h */,
 				0E97FF941AA5535A004A7169 /* BDAlertController.m */,
+				0E3625CC1AAEFF5000E3ECA9 /* BDTestController.h */,
+				0E3625CD1AAEFF5000E3ECA9 /* BDTestController.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -318,6 +349,8 @@
 				E177B2651A884CF600EBC874 /* TestManager.m */,
 				0E5D5D411AA800DF00944AF7 /* BDUtil.h */,
 				0E5D5D421AA800DF00944AF7 /* BDUtil.m */,
+				0E3625C91AAEE25D00E3ECA9 /* ArrayDataSource.h */,
+				0E3625CA1AAEE25D00E3ECA9 /* ArrayDataSource.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -447,9 +480,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1499A451A88B0CF00AAED0E /* BDNewsController.m in Sources */,
+				0E288EBD1ABD49120026CD2E /* BDDb.m in Sources */,
 				0E97FF951AA5535A004A7169 /* BDAlertController.m in Sources */,
 				E1075B541A8070B9002ADDF7 /* AppDelegate.m in Sources */,
 				0E14F57A1AA3F825002DE9DA /* BDNewsViewCell.m in Sources */,
+				0E3625CB1AAEE25D00E3ECA9 /* ArrayDataSource.m in Sources */,
+				0E241A821ABAC4C000013667 /* Model.xcdatamodeld in Sources */,
 				E1499A311A88A8CA00AAED0E /* BDBaseViewController.m in Sources */,
 				E1499A4B1A88B11800AAED0E /* BDAblumController.m in Sources */,
 				0E02D4741AA6F1AF000179F1 /* Test1.m in Sources */,
@@ -461,13 +497,13 @@
 				E1075B511A8070B9002ADDF7 /* main.m in Sources */,
 				0E02D4771AA6F1B8000179F1 /* Test2.m in Sources */,
 				0E14F5851AA3FD34002DE9DA /* BDTimeViewCell.m in Sources */,
+				0E3625CE1AAEFF5000E3ECA9 /* BDTestController.m in Sources */,
 				E1499A4E1A88B12900AAED0E /* BDFilmController.m in Sources */,
 				E10C1AB91AA15025007841C6 /* UITableView+Register.m in Sources */,
 				0E97FF991AA553D1004A7169 /* BDAlertViewCell.m in Sources */,
 				E1499A511A88B13A00AAED0E /* BDMineController.m in Sources */,
 				0E688F261AA59839000DFCB9 /* BDPickerView.m in Sources */,
 				E192545D1AA0143200D183A4 /* BDBaseTableViewController.m in Sources */,
-				E1075B571A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld in Sources */,
 				E153174E1A84A77E009CE834 /* SingleManager.m in Sources */,
 				0E14F5891AA3FD6C002DE9DA /* BDTimeController.m in Sources */,
 				E1499A3B1A88AC2900AAED0E /* BDWorkbenchController.m in Sources */,
@@ -579,8 +615,24 @@
 			baseConfigurationReference = 50692820192AB973B4BE957B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = cocoapodsDemo/cocoapodsDemo.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/GCJSONKit\"",
+					"\"${PODS_ROOT}/Headers/Public/GCJSONKit/JSONKit\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/RNActivityView\"",
+					"\"${PODS_ROOT}/Headers/Public/Reachability\"",
+					"$(PROJECT_DIR)/BDZyfModel/**",
+				);
 				INFOPLIST_FILE = cocoapodsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BDZyfModel/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -590,8 +642,24 @@
 			baseConfigurationReference = 10743104849F9CC6EA02B1E0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = cocoapodsDemo/cocoapodsDemo.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/GCJSONKit\"",
+					"\"${PODS_ROOT}/Headers/Public/GCJSONKit/JSONKit\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/RNActivityView\"",
+					"\"${PODS_ROOT}/Headers/Public/Reachability\"",
+					"$(PROJECT_DIR)/BDZyfModel/**",
+				);
 				INFOPLIST_FILE = cocoapodsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BDZyfModel/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -620,13 +688,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E1075B551A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodeld */ = {
+		0E241A801ABAC4C000013667 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E1075B561A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodel */,
+				0E241A811ABAC4C000013667 /* Model.xcdatamodel */,
 			);
-			currentVersion = E1075B561A8070B9002ADDF7 /* cocoapodsDemo.xcdatamodel */;
-			path = cocoapodsDemo.xcdatamodeld;
+			currentVersion = 0E241A811ABAC4C000013667 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

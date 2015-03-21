@@ -14,6 +14,8 @@
 
 - (IBAction)normalClick:(id)sender;
 - (IBAction)pickerClick:(id)sender;
+- (IBAction)tipClick:(id)sender;
+- (IBAction)httpClick:(id)sender;
 
 
 @end

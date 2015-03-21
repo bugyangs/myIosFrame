@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C1510" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BDNews" representedClassName="BDNews" syncable="YES">
+        <attribute name="addTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="user_r" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BDUser" inverseName="news_r" inverseEntity="BDUser" syncable="YES"/>
+    </entity>
+    <entity name="BDUser" representedClassName="BDUser" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="news_r" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BDNews" inverseName="user_r" inverseEntity="BDNews" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BDNews" positionX="-209" positionY="-63" width="128" height="118"/>
+        <element name="BDUser" positionX="-54" positionY="18" width="128" height="118"/>
+    </elements>
+</model>

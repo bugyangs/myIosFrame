@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+//#import "BDNews.h"
 @interface SingleManager : NSObject
 
 + (SingleManager *)instance;

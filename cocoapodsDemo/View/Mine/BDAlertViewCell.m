@@ -11,8 +11,8 @@
 #import "BDPickerView.h"
 @interface BDAlertViewCell()
 
-@property (nonatomic, strong)BDAlertView *alertView;
-@property (nonatomic, strong)BDPickerView *pickerView;
+@property (nonatomic, strong) BDAlertView *alertView;
+@property (nonatomic, strong) BDPickerView *pickerView;
 
 @end
 
@@ -35,9 +35,24 @@
 - (IBAction)pickerClick:(id)sender {
     
     _pickerView.pickerArray = @[@"男", @"女"];
+    __weak typeof(self) weakself = self;
     _pickerView.pickerSelectBlock = ^(NSString *title) {
-        self.pickerLabel.text = title;
+        weakself.pickerLabel.text = title;
     };
     [_pickerView show];
 }
+
+- (IBAction)tipClick:(id)sender {
+    [self showActivityViewWithLabel:@"Loading"];
+    [self hideActivityViewWithAfterDelay:2];
+}
+
+- (IBAction)httpClick:(id)sender {
+}
+
+- (void)myTask {
+    sleep(3);
+}
+
+
 @end

@@ -19,7 +19,6 @@
     [super viewDidLoad];
     
     [self initRootView];
-    
 //    [self initTest];
 }
 
